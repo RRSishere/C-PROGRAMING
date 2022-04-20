@@ -1,0 +1,18 @@
+# include<stdio.h>
+# include<ctype.h>
+# include<math.h>
+
+int main(){
+    char x;
+    printf("enter your digit:");
+    scanf("%c",&x);
+    if(isdigit(x)){
+        printf("this is anumber");
+    }else{
+        printf("this is not a number");
+    }
+
+
+    
+    return 0;
+}
